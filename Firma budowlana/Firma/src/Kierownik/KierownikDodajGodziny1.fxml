@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="280.0" prefWidth="285.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kierownik.KierownikDodajGodziny1Controller">
+   <children>
+      <ComboBox fx:id="cbDzial" layoutX="97.0" layoutY="93.0" prefHeight="26.0" prefWidth="91.0" />
+      <Button fx:id="bDalej" layoutX="43.0" layoutY="175.0" mnemonicParsing="false" onAction="#bDalej" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Dalej" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font></Button>
+      <Button fx:id="bAnuluj" layoutX="43.0" layoutY="232.0" mnemonicParsing="false" onAction="#bAnuluj" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Anuluj" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font></Button>
+      <Label layoutX="55.0" layoutY="25.0" text="Wybierz dział" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

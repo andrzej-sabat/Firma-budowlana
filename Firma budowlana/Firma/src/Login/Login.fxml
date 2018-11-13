@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="568.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <children>
+      <Pane prefHeight="578.0" prefWidth="568.0" style="-fx-background-color: #ff8000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="21.0" layoutY="286.0" text="Login:" textFill="#331a00">
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="274.0" layoutY="286.0" text="Hasło:" textFill="#331a00">
+               <font>
+                  <Font name="Century Gothic" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfLogin" layoutX="66.0" layoutY="283.0" prefWidth="200.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="tfHaslo" layoutX="316.0" layoutY="283.0" prefWidth="200.0">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="bPracownik" layoutX="66.0" layoutY="351.0" mnemonicParsing="false" onAction="#buttonPracpwnikLoginClick" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Zaloguj się jako pracownik" textFill="#d6d6d6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bKierownik" layoutX="316.0" layoutY="351.0" mnemonicParsing="false" onAction="#buttonKierownikLoginClick" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Zaloguj się jako kierownik" textFill="#d6d6d6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bWyjscie" layoutX="316.0" layoutY="404.0" mnemonicParsing="false" onAction="#buttonWyjscieClick" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Wyjdź" textFill="#d6d6d6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="bAdministrator" layoutX="66.0" layoutY="404.0" mnemonicParsing="false" onAction="#buttonAdminLoginClick" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Administrator" textFill="#d6d6d6">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Grafika/budowa1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="102.0" layoutX="151.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Grafika/budowa2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="21.0" layoutY="14.0" prefHeight="102.0" prefWidth="549.0" text="Logowanie do aplikacji firmowej" textFill="#331a00">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="657.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kierownik.KierownikDodajGodziny2Controller">
+   <children>
+      <Label layoutX="209.0" layoutY="32.0" text="Wybierz pracownika" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <ListView fx:id="lvPracownicy" layoutX="25.0" layoutY="106.0" prefHeight="290.0" prefWidth="606.0" />
+      <Button fx:id="bAnuluj" layoutX="437.0" layoutY="431.0" mnemonicParsing="false" onAction="#bAnuluj" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Anuluj" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bDalej" layoutX="229.0" layoutY="431.0" mnemonicParsing="false" onAction="#bDalej" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Następny krok" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="bTyl" layoutX="25.0" layoutY="431.0" mnemonicParsing="false" onAction="#bTyl" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Poprzedni krok" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="363.0" prefWidth="306.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.KierownikLoginController">
+   <children>
+      <Label layoutX="19.0" layoutY="51.0" text="Login:" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonAnuluj" layoutX="40.0" layoutY="239.0" mnemonicParsing="false" onAction="#bAnuluj" prefHeight="40.0" prefWidth="226.0" style="-fx-background-color: #331a00;" text="Anuluj" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="buttonLogin" layoutX="40.0" layoutY="162.0" mnemonicParsing="false" onAction="#bLogin" prefHeight="40.0" prefWidth="226.0" style="-fx-background-color: #331a00;" text="Zaloguj się jako kierownik" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="18.0" layoutY="95.0" text="Hasło:" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="tfHaslo" layoutX="62.0" layoutY="95.0" prefHeight="26.0" prefWidth="226.0" />
+      <TextField fx:id="tfLogin" layoutX="62.0" layoutY="51.0" prefHeight="26.0" prefWidth="226.0" />
+   </children>
+</AnchorPane>

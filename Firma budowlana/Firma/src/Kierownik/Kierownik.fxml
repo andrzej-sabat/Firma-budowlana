@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="668.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kierownik.KierownikController">
+   <children>
+      <Label fx:id="labelImie" layoutX="56.0" layoutY="185.0" text=" Imie Nazwisko" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="bDodajGodziny" layoutX="56.0" layoutY="256.0" mnemonicParsing="false" onAction="#bDodajGodziny" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #331a00;" text="Dodaj godziny" textFill="#d6d6d6" />
+      <Button fx:id="bZmienHaslo" layoutX="363.0" layoutY="256.0" mnemonicParsing="false" onAction="#bZmienHaslo" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #331a00;" text="Zmień swoje hasło" textFill="#d6d6d6" />
+      <Button fx:id="bWyloguj" layoutX="56.0" layoutY="322.0" mnemonicParsing="false" onAction="#bWyloguj" prefHeight="40.0" prefWidth="185.0" style="-fx-background-color: #331a00;" text="Wyloguj się" textFill="#d6d6d6" />
+      <Button fx:id="bWyjdz" layoutX="363.0" layoutY="321.0" mnemonicParsing="false" onAction="#bWyjdz" prefHeight="43.0" prefWidth="185.0" style="-fx-background-color: #331a00;" text="Wyjdź" textFill="#d6d6d6" />
+      <ImageView fitHeight="95.0" fitWidth="83.0" layoutX="443.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Grafika/manager.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="54.0" text="Panel kierownika" textFill="#331a00">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

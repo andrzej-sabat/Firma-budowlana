@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.0" prefWidth="430.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pracownik.PracownikWynagrodzenieController">
+   <children>
+      <Label layoutX="28.0" layoutY="101.0" text="Wynagrodzenie podstawowe:" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font></Label>
+      <Label layoutX="30.0" layoutY="170.0" text="Premia:" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font></Label>
+      <Label fx:id="lWynagrodzenie" layoutX="28.0" layoutY="132.0" text="3000 PLN" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lPremia" layoutX="28.0" layoutY="201.0" text="150 PLN" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="246.0" text="Wynagrodzenie całkowite:" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font></Label>
+      <Label fx:id="lWynagrodzenieExtra" layoutX="28.0" layoutY="277.0" text="3150 PLN" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="bPowrot" layoutX="115.0" layoutY="361.0" mnemonicParsing="false" onAction="#bPowrot" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #331a00;" text="Powrót" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font></Button>
+      <Label layoutX="101.0" layoutY="34.0" text="Wynagrodzenie" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

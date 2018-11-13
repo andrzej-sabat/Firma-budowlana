@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="646.0" prefWidth="730.0" style="-fx-background-color: #ff8000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.AdminController">
+   <children>
+      <Button fx:id="bDodajPracownika" layoutX="63.0" layoutY="255.0" mnemonicParsing="false" onAction="#bDodajPracownika" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: #331a00;" text="Dodaj pracownika" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="bUsunPracownika" layoutX="63.0" layoutY="341.0" mnemonicParsing="false" onAction="#bUsunPracownika" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: #331a00;" text="Usuń pracownika" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="63.0" layoutY="194.0" text="Zarządzanie pracownikami" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="bWyloguj" layoutX="241.0" layoutY="453.0" mnemonicParsing="false" onAction="#bWyloguj" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: #331a00;" text="Wyloguj się" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="402.0" layoutY="194.0" text="Zarządzanie kierownikami" textFill="#331a00">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="bDodajKierownika" layoutX="402.0" layoutY="255.0" mnemonicParsing="false" onAction="#bDodajKierownika" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: #331a00;" text="Dodaj kierownika" textFill="#d6d6d6">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="bUsunKierownika" layoutX="402.0" layoutY="341.0" mnemonicParsing="false" onAction="#bUsunKierownika" prefHeight="40.0" prefWidth="249.0" style="-fx-background-color: #331a00;" text="Usuń kierownika" textFill="#d6d6d6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="74.0" fitWidth="71.0" layoutX="488.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Grafika/admin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="51.0" text="Panel administratora" textFill="#331a00">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
